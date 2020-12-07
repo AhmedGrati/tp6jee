@@ -39,6 +39,20 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jdbc -->
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jdbc</artifactId>
+
+		</dependency>
+
 	</dependencies>
 
 	<build>
