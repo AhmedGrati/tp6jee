@@ -27,6 +27,12 @@
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
+			<version>1.4.200</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
@@ -46,11 +52,13 @@
 
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jdbc -->
+		<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-jdbc-core -->
 		<dependency>
 			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-jdbc</artifactId>
+			<artifactId>spring-data-jdbc-core</artifactId>
+			<version>1.2.1.RELEASE</version>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf -->
 		<dependency>
 			<groupId>org.thymeleaf</groupId>
